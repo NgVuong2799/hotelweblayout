@@ -1,0 +1,246 @@
+@font-face {
+    font-family: rajd;
+    src: url(./Rajdhani-Light.ttf);
+}
+main{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main input:focus,select:focus,button:focus{
+    outline: 0;
+}
+header{z-index: 1000;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background-color:rgba(169, 158, 158, 0.823);
+}
+
+header li,a{float: left;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font-size:17px;
+    margin-top:10px;
+}
+header a:hover{
+    color: orange;
+    font-size: 19px;
+}
+.logo{
+    width: 20%;
+    margin-top: 0px;
+}
+#container1 img{width: 100%;
+}
+#baner1{
+    position: absolute;
+    top:50%;
+   width: 100%;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    text-align: center;
+}
+#baner1 h1{
+    font-size: 50px;
+}
+#container2{
+    width: 90%;
+    height: 43px;
+    margin: 10px auto;
+    border-radius: 3px;
+    box-shadow: 4px 4px 5px 5px rgba(128, 128, 128, 0.401);
+    background-color: rgba(240, 248, 255, 0.712);
+}
+#time,#soluong{margin: 0;
+    padding: 0;
+    width: 30%;
+    font-size: 20px;
+    border: 0;
+    height: 40px;
+    border-right: 1px solid rgba(80, 80, 80, 0.51);
+}
+#nguoilon,#treem{
+    width: 14%;
+    font-size: 20px;
+    border: 0;
+    height: 40px;
+    border-right: 1px solid rgba(90, 90, 90, 0.664);
+}
+#timphong{width: 10%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    border: 0;
+    height: 40px;
+    background-color: white;
+}
+
+#container3{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container3left{width: 45%;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 70px ;
+}
+#container3left img{
+    width: 300px;
+    height: 450px;
+    box-shadow: 20px rgba(128, 128, 128, 0.585);
+}
+
+#container7 img{
+    width: 100%;
+}
+#container3right{
+    padding-top:100px;
+    width: 40%;
+    text-align: center;
+}
+#container3right h1,#container4 h1{
+    font-size: 40px;
+    color: #e6bf3f;
+    font-family: rajd;
+}
+#container3right p,#container4 p{font-family: rajd;
+font-size: 19px;}
+
+#container4{
+    text-align: center;
+    margin: 20px;
+}
+.containercon{width: 300px;
+    height: 480px;
+    box-shadow: 10px 10px rgba(108, 106, 106, 0.321);
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgba(192, 178, 178, 0.904);
+    border-radius: 5px;
+}
+.containercon:hover img{
+    transform: scale(1.1,1.1);
+    transition: all 2s ease; 
+}
+.containercon:hover h3{
+    color:white;
+}
+.containercon img{
+    width: 90%;
+    padding-top: 20px;
+}
+#container5 td{
+    width: 250px;
+    height: 250px;
+}
+#container5 table{
+    margin: 10px auto;
+   
+}
+#container5 h3{ font-family: rajd;
+}
+#container6{display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+#container6left{text-align: center;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url(background.png);   
+}
+#container6left p{
+    width: 100%;
+    margin-top: 200px;
+    font-family: rajd;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+#container6left img{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#container6left h5{margin-top: 5px;
+    font-size: 30px;
+}
+#container6right{
+    width:50%;
+    background-image: url(backs.jpg);
+    background-size: 100%;
+}
+#contactform{
+    background-color: rgba(255, 255, 255, 0.622);
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+#contactform input{
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.759);
+    box-shadow: 3px 3px inset rgba(90, 90, 90, 0.418);
+}
+#contactform button{
+    width: 30%;
+    height: 30px;
+    background-color: rgba(222, 184, 135, 0.688);
+    border: none;
+}
+#contactform h1,h5{
+    font-family: rajd;
+    color: coral;
+}
+#container7{margin: 0 auto;
+    width: 95%;
+    font-family: rajd;
+    display: flex;
+    flex: wrap;
+    font-size: 20px;
+}
+#container7 img{
+    width: 100%;
+    height: 300px;
+}
+.container7con{background-color: aliceblue;
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.056);
+    width: 24%;
+    margin: 10px auto;
+}
+.container7con h2,p{
+    margin: 20px;
+}
+#ggmap{
+    margin-top: 20px;
+}
+footer{display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    font-family: rajd;
+}
+#left,#right{width: 35%;
+
+}
+footer li{
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+footer li:hover{
+    color: coral;
+    padding-left: 10px;
+}

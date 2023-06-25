@@ -1,0 +1,100 @@
+#container8 h1{
+    position: absolute;
+    top: 30%;
+    text-decoration: underline;
+    color: aliceblue;
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+}
+#imggallery{
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgba(128, 128, 128, 0.597);
+}
+.imgcon{position: relative;
+    width: 23%;
+    margin: 10px auto;
+}
+.imgcon img{
+    height: 200px;
+    width: 90%;
+    padding: 10px auto;
+}
+.imgcon h4{
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    background-color: rgba(128, 128, 128, 0.337);
+}
+#phongcontent{text-align: center;
+    margin: 30px 5%;
+    width: 90%;
+    height: max-content;
+     
+}
+.loaiphong{display: flex;
+    flex-wrap: wrap; 
+width: 100%;
+margin: 5px auto;
+background-color: whitesmoke;
+border: 1px solid rgba(128, 128, 128, 0.275);
+}
+.right1{
+    width: 20%;
+}
+.left1{text-align: left;
+    width: 70%;
+    margin: 5px auto;
+}
+.left1 table{
+    width: 100%;
+}
+.left1 td{
+    width: 33%;
+    height: 30px;
+}
+.loaiphong img{
+    width: 100%;
+    height: 250px;
+}
+#datphongcontent{
+    background-image:url(./backs.jpg);
+    padding: 20px;
+}
+#formdatphong{padding: 30px 0px;
+    width: 410px;
+    margin: 20px auto;
+    background-color:rgba(255, 255, 255, 0.708);
+    text-align: center;
+}
+.formdatphong1,input,button{
+    width: 300px;
+    height: 40px;
+    margin:5px auto ;
+    border: 0px;
+    background-color: transparent;
+    box-shadow: 5px 5px rgba(157, 153, 153, 0.496);
+}
+#formdatphong button{
+    background-color: chocolate;
+    margin: 10px;
+}
+#formdatphong h2{
+    margin-top: 30px;
+    color: coral;
+    font-family: rajd;
+}
+.lil{
+    text-align: center;
+    color: chocolate;
+    font-family: danci;
+}
+marquee{
+    font-family: danci;
+    color: red;
+    background-color: cyan;
+    margin-top: 10px;
+}
